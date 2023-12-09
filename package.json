@@ -1,0 +1,26 @@
+{
+  "name": "@rkh/reset",
+  "version": "0.0.1",
+  "description": "Yet another CSS/Sass reset.",
+  "main": "css/index.css",
+  "style": "css/index.css",
+  "files": [
+    "css/*",
+    "sass/*",
+    "_index.scss",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkh/reset.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "sass src/index.scss css/index.css && sass --no-source-map --style compressed src/index.scss css/index.min.css"
+  },
+  "devDependencies": {
+    "sass": ">=1.67.0",
+    "sass-true": "^7.0.0"
+  }
+}

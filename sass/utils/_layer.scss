@@ -1,0 +1,12 @@
+@use "../config";
+
+@mixin layer($name: null) {
+  @if $name == null { $name: config.$layer-name; }
+  @if config.$use-layer == true {
+    @layer #{$name} {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
