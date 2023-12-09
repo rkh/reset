@@ -35,13 +35,13 @@ It is also possible to use the reset without CSS layers:
 ```
 
 Or with a custom layer name:
-  
+
 ```scss
 @use '@rkh/reset' with ($layer-name: 'my-reset-layer');
 ```
 
 ### CSS
-  
+
 ```css
 @import '@rkh/reset';
 ```
