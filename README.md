@@ -2,7 +2,7 @@
 
 CSS/Sass reset based on [scss-reset](https://github.com/frontend-layers/scss-reset). Some rules specifically targeting very old browsers have been removed.
 
-The main difference to other resets is that it wraps all resets rules in a CSS layer. This way they do not take precedence over your own CSS layers.
+The main difference to other resets is that it wraps all reset rules in a CSS layer. This way they do not take precedence over your own CSS layers.
 
 ## Installation
 
